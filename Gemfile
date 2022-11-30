@@ -37,6 +37,9 @@ gem 'bootsnap', '>= 1.1.0', require: false
 group :development, :test do
   gem 'pry'
   gem 'simplecov'
+  gem 'rspec-rails'
+  gem 'capybara'
+  gem 'launchy' # save_and_open_page
 end
 
 group :development do
