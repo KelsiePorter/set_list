@@ -40,6 +40,7 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'capybara'
   gem 'launchy' # save_and_open_page
+  gem 'shoulda-matchers', '~> 5.0'
 end
 
 group :development do
